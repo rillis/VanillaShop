@@ -1,0 +1,23 @@
+name: VanillaShop
+main: com.rillis.PluginShop
+version: 1.0
+api-version: 1.14
+commands:
+   money:
+      description: Mostra a quantidade de esmeraldas que voce tem em seu banco
+      usage: /money
+   sacar:
+      description: Saca uma quantidade de esmeraldas
+      usage: /sacar <qtd>
+   depositar:
+      description: Deposita uma quantidade de esmeraldas
+      usage: /depositar <qtd>
+   shop:
+      description: Abre a loja
+      usage: /shop
+   vender:
+      description: Abre a loja
+      usage: /vender <preco>
+   remover:
+      description: Retira um item a venda
+      usage: /remover
